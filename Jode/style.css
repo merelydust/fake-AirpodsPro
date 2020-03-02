@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #000;
+}
+
+.layer1 {
+  height: 100vh;
+}
+
+.layer1 video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.layer1 .title {
+  width: 1200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: #fff;
+}
+
+section {
+  height: 100vh;
+  color: #fff;
+}
+
+section.layer2 {
+  background-image: url(./assets/cherry.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section div.rero {
+  padding-top: 300px;
+  text-align: center;
+  font-size: 80px;
+}
